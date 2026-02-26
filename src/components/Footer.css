@@ -25,8 +25,19 @@
   margin-bottom: 1rem;
 }
 
-.logo-icon {
-  font-size: 2rem;
+.footer-logo .logo-icon {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer-logo .logo-icon {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .footer-description {
@@ -262,4 +273,18 @@
   .footer-bottom-link {
     font-size: 0.85rem;
   }
+.footer-logo .logo-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .footer-logo .logo-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 }

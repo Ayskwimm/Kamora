@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useCart } from '../contexts/CartContext'
 import CartModal from './CartModal'
+import kamoraLogo from '../assets/kamora.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -27,8 +28,8 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-content">
             <Link to="/" className="nav-logo">
-              <span className="logo-icon">🍔</span>
-              <span className="logo-text">Kamora</span>
+              <img src={kamoraLogo} alt="Kamora" className="logo-icon" />
+              <span className="logo-text"></span>
             </Link>
 
             <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

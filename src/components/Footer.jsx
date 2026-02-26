@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import kamoraLogo from '../assets/kamora.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -10,11 +11,11 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3 className="footer-logo">
-              <span className="logo-icon">🍔</span>
-              Kamora
+              <img src={kamoraLogo} alt="Kamora" className="logo-icon" />
+              KAMORA
             </h3>
             <p className="footer-description">
-              Experience the taste of happiness with our delicious grilled dishes, 
+              Ka-mo-wow sa Sarap! Experience the taste of happiness with our delicious grilled dishes, 
               artisanal desserts, and refreshing beverages.
             </p>
             <div className="social-links">
