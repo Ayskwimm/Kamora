@@ -50,7 +50,7 @@ const Hero = () => {
             <span className="cursor">|</span>
           </h1>
           <p className="hero-subtitle fade-in">
-            Welcome to FlavorFiesta, where every dish tells a story of passion, 
+            Welcome to Kamora, where every dish tells a story of passion, 
             quality, and unforgettable taste. From sizzling grilled specialties to 
             decadent desserts, we bring you the finest culinary experience.
           </p>

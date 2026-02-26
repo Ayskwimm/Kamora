@@ -27,7 +27,7 @@ const testimonials = [
     id: 4,
     name: "David Thompson",
     rating: 5,
-    comment: "FlavorFiesta never disappoints! The quality is consistently excellent and the staff is always friendly. My go-to restaurant!",
+    comment: "Kamora never disappoints! The quality is consistently excellent and the staff is always friendly. My go-to restaurant!",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100"
   },
   {

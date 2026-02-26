@@ -1,6 +1,6 @@
-# FlavorFiesta - Food Promotional Website
+# Kamora - Food Promotional Website
 
-A modern, responsive, and interactive food promotional website built with React JS and Vite. FlavorFiesta specializes in grilled dishes, desserts, and beverages, offering a delightful culinary experience.
+A modern, responsive, and interactive food promotional website built with React JS and Vite. Kamora specializes in grilled dishes, desserts, and beverages, offering a delightful culinary experience.
 
 ## 🚀 Features
 
@@ -28,7 +28,7 @@ A modern, responsive, and interactive food promotional website built with React 
 ## 📁 Project Structure
 
 ```
-flavorfiesta-website/
+kamora-website/
 ├── public/
 ├── src/
 │   ├── assets/          # Images, icons, and static assets
@@ -73,7 +73,7 @@ flavorfiesta-website/
 1. **Clone or download the project**
    ```bash
    # If you have the project files, navigate to the project directory
-   cd flavorfiesta-website
+   cd kamora-website
    ```
 
 2. **Install dependencies**

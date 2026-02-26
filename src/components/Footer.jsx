@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3 className="footer-logo">
               <span className="logo-icon">🍔</span>
-              FlavorFiesta
+              Kamora
             </h3>
             <p className="footer-description">
               Experience the taste of happiness with our delicious grilled dishes, 
@@ -82,7 +82,7 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <span className="contact-icon">✉️</span>
-                <span>info@flavorfiesta.com</span>
+                <span>info@kamora.com</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">🕐</span>
@@ -95,7 +95,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="copyright">
-              © {currentYear} FlavorFiesta. All rights reserved.
+              © {currentYear} Kamora. All rights reserved.
             </p>
             <div className="footer-bottom-links">
               <a href="#" className="footer-bottom-link">Privacy Policy</a>

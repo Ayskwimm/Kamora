@@ -48,7 +48,7 @@ const Home = () => {
 
       <section className="features-section section">
         <div className="container">
-          <h2 className="section-title">Why Choose FlavorFiesta?</h2>
+          <h2 className="section-title">Why Choose Kamora?</h2>
           <p className="section-subtitle">
             We're committed to delivering the best dining experience
           </p>

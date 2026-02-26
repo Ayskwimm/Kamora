@@ -5,7 +5,7 @@ const About = () => {
     <div className="about-page">
       <section className="about-hero section">
         <div className="container">
-          <h1 className="page-title">About FlavorFiesta</h1>
+          <h1 className="page-title">About Kamora</h1>
           <p className="page-subtitle">
             Our journey of bringing happiness through food
           </p>
@@ -18,7 +18,7 @@ const About = () => {
             <div className="story-text">
               <h2>Our Story</h2>
               <p>
-                Founded in 2015, FlavorFiesta began as a small food truck with a big dream - 
+                Founded in 2015, Kamora began as a small food truck with a big dream - 
                 to bring people together through the joy of great food. What started as a 
                 humble operation serving grilled sandwiches has grown into a beloved culinary 
                 destination known for our commitment to quality and innovation.
@@ -30,7 +30,7 @@ const About = () => {
                 passion for flavors to every dish we serve.
               </p>
               <p>
-                Today, FlavorFiesta stands as a testament to that vision. We've served over 
+                Today, Kamora stands as a testament to that vision. We've served over 
                 100,000 happy customers, expanded our menu to include everything from 
                 sizzling grilled specialties to decadent desserts, and built a community 
                 of food lovers who share our passion for exceptional flavors.

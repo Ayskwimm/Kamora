@@ -15,14 +15,14 @@ export const CartProvider = ({ children }) => {
   const [isCartOpen, setIsCartOpen] = useState(false)
 
   useEffect(() => {
-    const savedCart = localStorage.getItem('flavorfiesta-cart')
+    const savedCart = localStorage.getItem('kamora-cart')
     if (savedCart) {
       setCart(JSON.parse(savedCart))
     }
   }, [])
 
   useEffect(() => {
-    localStorage.setItem('flavorfiesta-cart', JSON.stringify(cart))
+    localStorage.setItem('kamora-cart', JSON.stringify(cart))
   }, [cart])
 
   const addToCart = (item) => {
