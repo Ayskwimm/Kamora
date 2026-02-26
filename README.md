@@ -1,221 +1,226 @@
-# Kamora - Modern Responsive Promotional Website
+# FlavorFiesta - Food Promotional Website
 
-A stunning, modern promotional website built with React.js, featuring smooth animations, responsive design, and exceptional user experience.
+A modern, responsive, and interactive food promotional website built with React JS and Vite. FlavorFiesta specializes in grilled dishes, desserts, and beverages, offering a delightful culinary experience.
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, professional UI with beautiful gradients and animations
-- **Fully Responsive**: Mobile-first design that looks perfect on all devices
-- **Smooth Animations**: Powered by Framer Motion for delightful interactions
-- **Interactive Components**: Carousel, forms with validation, hover effects
-- **SEO Optimized**: Meta tags, semantic HTML, and performance optimized
-- **Clean Architecture**: Modular, reusable components with best practices
+- **Modern React Architecture**: Built with React 18, functional components, and hooks
+- **Responsive Design**: Mobile-first approach with beautiful animations
+- **Multi-page Navigation**: React Router for seamless page transitions
+- **Shopping Cart**: Full cart functionality with localStorage persistence
+- **Dynamic Menu**: Category-based filtering and search capabilities
+- **Interactive Elements**: 
+  - Typewriter animation on hero section
+  - Countdown timer for promotions
+  - Testimonials slider with auto-play
+  - Hover effects and smooth transitions
+- **Contact Form**: Functional form with validation and success feedback
+- **Professional UI**: Modern design with food-inspired color scheme
 
-## 🛠️ Technology Stack
+## 🛠️ Technologies Used
 
-- **Frontend**: React 18 with functional components and hooks
-- **Routing**: React Router for navigation
-- **Styling**: Tailwind CSS with custom design system
-- **Animations**: Framer Motion for smooth transitions
-- **Icons**: React Icons for consistent iconography
-- **Build Tool**: Vite for fast development and building
-- **Package Manager**: npm
+- **React 18** - UI framework
+- **React Router DOM** - Client-side routing
+- **Vite** - Build tool and development server
+- **CSS3** - Styling with custom properties and animations
+- **JavaScript ES6+** - Modern JavaScript features
 
 ## 📁 Project Structure
 
 ```
-kamora/
+flavorfiesta-website/
 ├── public/
-│   └── index.html          # Main HTML file with SEO meta tags
 ├── src/
-│   ├── assets/
-│   │   └── styles.css      # Custom CSS and Tailwind imports
-│   ├── components/
-│   │   ├── About.jsx       # About section component
-│   │   ├── Button.jsx      # Reusable button component
-│   │   ├── Card.jsx        # Reusable card component
-│   │   ├── Contact.jsx     # Contact form with validation
-│   │   ├── Features.jsx    # Features grid section
-│   │   ├── Hero.jsx        # Hero section with animations
-│   │   ├── Pricing.jsx     # Pricing cards with toggle
-│   │   └── Testimonials.jsx # Testimonials carousel
-│   ├── layout/
-│   │   ├── Footer.jsx      # Footer component
-│   │   ├── Header.jsx      # Navigation header
-│   │   └── Layout.jsx      # Main layout wrapper
-│   ├── pages/
-│   │   └── Home.jsx        # Home page with all sections
-│   ├── hooks/              # Custom React hooks (if needed)
-│   ├── utils/              # Utility functions (if needed)
-│   ├── App.jsx             # Main App component with routing
-│   └── main.jsx            # Application entry point
-├── package.json            # Dependencies and scripts
-├── tailwind.config.js      # Tailwind CSS configuration
-├── vite.config.js          # Vite build configuration
-└── README.md              # This file
+│   ├── assets/          # Images, icons, and static assets
+│   ├── components/      # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── FoodCard.jsx
+│   │   ├── MenuSection.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── PromoBanner.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Button.jsx
+│   │   └── CartModal.jsx
+│   ├── contexts/        # React Context for state management
+│   │   └── CartContext.jsx
+│   ├── data/           # Static data and mock data
+│   │   └── foodData.js
+│   ├── pages/          # Page components
+│   │   ├── Home.jsx
+│   │   ├── Menu.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── styles/         # Global styles and CSS files
+│   │   └── Global.css
+│   ├── App.jsx         # Main App component
+│   └── main.jsx        # Application entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 ```
-
-## 🎨 Website Sections
-
-### 1. Hero Section
-- Full-width gradient background with animated elements
-- Compelling headline and subheadline
-- Call-to-action buttons with hover animations
-- Statistics display
-- Smooth entrance animations
-
-### 2. Features Section
-- 6 feature cards with icons
-- Responsive grid layout
-- Hover effects and animations
-- Call-to-action section
-
-### 3. About Section
-- Image and text layout
-- Company statistics
-- Core values display
-- Fade-in animations on scroll
-
-### 4. Testimonials Section
-- Interactive carousel with smooth transitions
-- Auto-play functionality
-- Manual navigation controls
-- Customer ratings
-- Additional testimonials grid
-
-### 5. Pricing Section
-- 3 pricing tiers
-- "Most Popular" highlight
-- Monthly/Yearly billing toggle
-- Feature comparison
-- FAQ section
-
-### 6. Contact Section
-- Interactive form with real-time validation
-- Success message animation
-- Contact information display
-- Business hours
-
-### 7. Footer
-- Company information
-- Navigation links
-- Social media icons
-- Newsletter signup (ready for implementation)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (version 16 or higher)
-- npm or yarn
+- npm or yarn package manager
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/kamora.git
-cd kamora
-```
+1. **Clone or download the project**
+   ```bash
+   # If you have the project files, navigate to the project directory
+   cd flavorfiesta-website
+   ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-3. Start the development server:
-```bash
-npm run dev
-```
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. **Open your browser**
+   Navigate to `http://localhost:5173` (or the URL shown in your terminal)
 
-### Building for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## 🎯 Key Features Demonstrated
-
-### React Best Practices
-- Functional components with hooks
-- Custom reusable components
-- Proper state management
-- Clean component architecture
-- Props validation and default values
-
-### Modern CSS Techniques
-- Tailwind CSS utility classes
-- Custom CSS variables
-- Responsive design patterns
-- Smooth transitions and animations
-- Glass morphism effects
-
-### User Experience
-- Smooth scrolling navigation
-- Form validation with error messages
-- Loading states and animations
-- Mobile-responsive design
-- Accessibility considerations
-
-### Performance Optimization
-- Lazy loading with intersection observers
-- Optimized animations
-- Efficient re-renders
-- Code splitting ready
-- SEO meta tags
-
-## 🎨 Customization
-
-### Colors
-The color scheme is defined in `tailwind.config.js` and can be easily customized:
-- Primary: Blue (#3B82F6)
-- Secondary: Purple (#8B5CF6)
-- Accent: Pink (#EC4899)
-
-### Fonts
-The project uses Inter and Poppins fonts from Google Fonts. These can be changed in the `public/index.html` file.
-
-### Animations
-Animations are powered by Framer Motion. Custom animations can be added to individual components.
-
-## 📱 Responsive Breakpoints
-
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-
-## 🔧 Development Scripts
+### Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-## 🌟 Contributing
+## 📱 Pages & Features
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Home Page
+- Hero section with typewriter animation
+- Featured menu items by category
+- Promotional banner with countdown timer
+- Customer testimonials slider
+- Company features and values
+
+### Menu Page
+- Full menu display with category filtering
+- Dynamic food card rendering
+- Add to cart functionality
+- Search and filter capabilities
+
+### About Page
+- Company story and history
+- Mission and values
+- Team member profiles
+- Achievements and statistics
+
+### Contact Page
+- Contact information display
+- Functional contact form with validation
+- Social media links
+- Success message feedback
+
+## 🎨 Design Features
+
+- **Color Scheme**: Warm food-inspired colors (orange, red, cream, brown)
+- **Typography**: Clean, modern fonts with excellent readability
+- **Animations**: Smooth transitions, hover effects, and micro-interactions
+- **Responsive**: Fully responsive design for all screen sizes
+- **Accessibility**: Semantic HTML5 and ARIA labels where appropriate
+
+## 🛒 Shopping Cart Features
+
+- Add/remove items from cart
+- Update item quantities
+- Calculate total price dynamically
+- Persistent cart using localStorage
+- Cart item count in navigation
+- Modal popup for cart view
+
+## 📋 Component Breakdown
+
+### Core Components
+- **Navbar**: Responsive navigation with cart integration
+- **Hero**: Animated hero section with call-to-action
+- **FoodCard**: Reusable card component for menu items
+- **MenuSection**: Section wrapper for menu categories
+- **Testimonials**: Auto-sliding customer reviews
+- **PromoBanner**: Countdown timer for special offers
+- **Footer**: Comprehensive footer with links and info
+
+### Utility Components
+- **Button**: Reusable button with multiple variants
+- **CartModal**: Slide-out cart with full functionality
+
+## 🔧 Customization
+
+### Adding New Menu Items
+Edit `src/data/foodData.js` to add new food items:
+```javascript
+{
+  id: uniqueId,
+  name: "Item Name",
+  category: "grilled|desserts|beverages",
+  price: 12.99,
+  image: "image-url",
+  description: "Item description"
+}
+```
+
+### Modifying Colors
+Update CSS variables in `src/styles/Global.css`:
+```css
+:root {
+  --primary-color: #ff6b35;
+  --secondary-color: #f7931e;
+  --accent-color: #c73e1d;
+  /* ... other variables */
+}
+```
+
+## 🌟 Key Features Implemented
+
+✅ **React Router** for multi-page navigation  
+✅ **useState & useEffect** hooks for state management  
+✅ **Responsive Design** with mobile-first approach  
+✅ **Shopping Cart** with localStorage persistence  
+✅ **Form Validation** with error handling  
+✅ **Animations** and micro-interactions  
+✅ **Component Architecture** with reusable components  
+✅ **Modern CSS** with custom properties  
+✅ **Semantic HTML5** structure  
+✅ **Professional UI/UX** design  
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🚀 Deployment
+
+To deploy this project:
+
+1. **Build the project**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy the `dist` folder** to your hosting service
+   - Netlify, Vercel, GitHub Pages, or any static hosting service
+
+## 🤝 Contributing
+
+This is a demonstration project showcasing modern React development practices.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Support
-
-If you have any questions or need support, please:
-- Open an issue on GitHub
-- Contact us at hello@kamora.com
+This project is for educational and demonstration purposes.
 
 ---
 
-**Built with ❤️ by the Kamora team**
+**Built with ❤️ using React and Vite**
